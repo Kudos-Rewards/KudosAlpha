@@ -1173,19 +1173,15 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-    {"kudosalphatools.com", "dnsseed.kudosalphatools.com"},
-    {"kudosalphapool.org", "dnsseed.kudosalphapool.org"},
-    {"xurious.com", "dnsseed.ltc.xurious.com"},
-    {"koin-project.com", "dnsseed.koin-project.com"},
-    {"weminemnc.com", "dnsseed.weminemnc.com"},
-    {NULL, NULL}
+    {"kudos-rewards.com", "dnsseed.kudos-rewards.com"},
+    {"epsom.prism-it.co.uk", "epsom.prism-it.co.uk"},
+     {NULL, NULL}
 };
 
 static const char *strTestNetDNSSeed[][2] = {
-    {"kudosalphatools.com", "testnet-seed.kudosalphatools.com"},
-    {"xurious.com", "testnet-seed.ltc.xurious.com"},
-    {"wemine-testnet.com", "dnsseed.wemine-testnet.com"},
-    {NULL, NULL}
+    {"1.int.kudos-rewards.com", "192.168.2.11"},
+    {"2.int.kudos-rewards.com", "192.168.2.13"},   
+       {NULL, NULL}
 };
 
 void ThreadDNSAddressSeed()

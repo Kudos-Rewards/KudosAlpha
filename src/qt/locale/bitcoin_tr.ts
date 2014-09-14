@@ -2237,8 +2237,8 @@ Adres: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Bağlantılar için dinlenecek &lt;port&gt; (varsayılan: 9333 ya da testnet: 19333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 55073 or testnet: 65073)</source>
+        <translation>Bağlantılar için dinlenecek &lt;port&gt; (varsayılan: 55073 ya da testnet: 65073)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2272,8 +2272,8 @@ Adres: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>JSON-RPC bağlantılarını &lt;port&gt; üzerinde dinle (varsayılan: 9332 veya tesnet: 19332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 55072 or testnet: 65072)</source>
+        <translation>JSON-RPC bağlantılarını &lt;port&gt; üzerinde dinle (varsayılan: 55072 veya tesnet: 65072)</translation>
     </message>
     <message>
         <location line="+37"/>
