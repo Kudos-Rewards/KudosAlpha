@@ -1175,6 +1175,8 @@ void MapPort(bool)
 static const char *strMainNetDNSSeed[][2] = {
     {"kudos-rewards.com", "dnsseed.kudos-rewards.com"},
     {"epsom.prism-it.co.uk", "epsom.prism-it.co.uk"},
+    {"1.int.kudos-rewards.com", "192.168.2.11"},
+    {"2.int.kudos-rewards.com", "192.168.2.13"}, 
      {NULL, NULL}
 };
 
